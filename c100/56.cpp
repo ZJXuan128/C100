@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<string.h>
+int main(void)
+{
+	char a[20];
+	int b;
+	scanf("%s",a);
+	b=strlen(a);
+	printf("%d",b);
+}
